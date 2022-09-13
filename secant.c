@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<math.h>
-/*Function whose root is to be determined*/
 double f(double x){
     return x*x-4;
 }
