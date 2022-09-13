@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<math.h> // math.h header
+#include<math.h> // math.h header file
 float fun (float x)
 {
     return (x*x*x - 4*x - 9);
