@@ -1,8 +1,13 @@
 #include <stdio.h>
 #include <math.h>
 
-float f(float);
-float derivative(float);
+float f(float x) { // f(x)
+	return pow(x,2) - 5;
+}
+
+float derivative(float x) { // f'(x)
+	return 2*x;
+}
 
 int main() {
 	float x; // x: approximation
@@ -23,10 +28,3 @@ int main() {
 	return 0;
 }
 
-float f(float x) { // f(x)
-	return pow(x,2) - 5;
-}
-
-float derivative(float x) { // f'(x)
-	return 2*x;
-}
