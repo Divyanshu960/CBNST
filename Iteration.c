@@ -4,7 +4,7 @@
 
 #define   f(x)   cos(x)-3*x+1
 #define   g(x)   (1+cos(x))/3
-
+ 
 int main()
 {
 	 int step=1, N;
