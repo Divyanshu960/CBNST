@@ -3,7 +3,7 @@
 #include<math.h>
  
 #define SIZE 10
-
+ 
 int main()
 {
 		 float a[SIZE][SIZE], x[SIZE], ratio;
