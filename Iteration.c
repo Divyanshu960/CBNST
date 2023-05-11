@@ -8,7 +8,7 @@
 int main() 
 {
 	 int step=1, N;
-	 float x0, x1, e;
+	 float x0, x1, e;  
 	 printf("Enter Bound values: ");
 	 scanf("%f", &x0);
 	 printf("Enter Epsilon value: ");
